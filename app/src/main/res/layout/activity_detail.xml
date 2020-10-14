@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="50dp"
+        android:text="Nama Makanan"
+        android:textAlignment="center"
+        android:id="@+id/nama"
+        android:textSize="30dp"/>
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="264dp"
+        android:layout_height="169dp"
+        android:layout_below="@+id/nama"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="60dp" />
+
+    <ListView
+        android:id="@+id/lvdetail"
+        android:layout_width="match_parent"
+        android:layout_height="496dp"
+        android:layout_below="@+id/gambar"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="27dp"
+        android:layout_marginBottom="0dp" />
+
+
+</RelativeLayout>
